@@ -32,8 +32,8 @@ Must be in shape of `(N, corr_dim`) where `corr_dim` is the length of the correl
 - `label`:
 The label of each sample in shape of `(N, 1)`.
 The label can be `0` (noise) or `1` (signal).
-In some cases, I labeled `glitches` as `2`.
-`train_bbhnet.py` will automatically convert all `2` labels to `0`.
+In some cases, the `glitches` class is included and labeled `2`.
+In these cases, `train_bbhnet.py` will automatically convert all `2` labels to `0`.
 
 Arguments of `train_bbhnet.py`:
 ```
